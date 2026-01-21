@@ -180,6 +180,19 @@
             transform: translateY(-2px);
         }
 
+        .github-link {
+            background: linear-gradient(135deg, #238636 0%, #1a6929 100%);
+            color: #fff;
+            border-color: #2ea043;
+            box-shadow: 0 0 20px rgba(46, 160, 67, 0.4);
+        }
+
+        .github-link:hover {
+            background: linear-gradient(135deg, #1a6929 0%, #0d471a 100%);
+            box-shadow: 0 0 30px rgba(46, 160, 67, 0.6);
+            transform: translateY(-2px);
+        }
+
         .link-button::before {
             content: '';
             position: absolute;
@@ -251,7 +264,7 @@
     <div class="container">
         <header>
             <h1>The Eastern Hive</h1>
-            <p class="subtitle">Natural Selection 2 Community Hub</p>
+            <p class="subtitle">Natural Selection 2's Number One EN Community!</p>
         </header>
 
         <section class="video-section">
@@ -318,15 +331,25 @@
 
         <section class="links-section">
             <a href="https://discord.gg/V9GSsDWHxP" class="link-button discord-link" target="_blank" rel="noopener noreferrer">
-                🎮 Join Our Discord
+                🎮 Join Our Discord!
             </a>
-            <a href="https://www.paypal.com/donate/?business=captjosh@hotmail.co.uk&currency_code=USD" class="link-button paypal-link" target="_blank" rel="noopener noreferrer">
-                💰 Support Us via PayPal
+            <a href="https://github.com/striter/NS2-Community-Balance/tree/NS2.0-EN" class="link-button github-link" target="_blank" rel="noopener noreferrer">
+                🔧 NS2.0-EN GitHub Repository
             </a>
+            <a href="https://www.paypal.com/" class="link-button paypal-link" target="_blank" rel="noopener noreferrer">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <span>❤️ Support Us via PayPal</span>
+                    <span style="font-size: 0.8em;">(Any amount is appreciated!)</span>
+                </div>
+            </a>
+            <span>
+                <strong>Donation email:</strong> captjosh@hotmail.co.uk
+            </span>
         </section>
 
         <footer>
             <p>The Eastern Hive &copy; 2026 | <span class="alien-accent">Natural Selection 2</span> Community</p>
+            <p>We do not own Natural Selection 2 or any associated materials and this website is not affiliated or endorsed by UWE.</p>
         </footer>
     </div>
 </body>
